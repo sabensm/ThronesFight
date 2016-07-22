@@ -12,6 +12,11 @@
 		27637D181D4065E300D394DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27637D161D4065E300D394DA /* Main.storyboard */; };
 		27637D1A1D4065E300D394DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27637D191D4065E300D394DA /* Assets.xcassets */; };
 		27637D1D1D4065E300D394DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27637D1B1D4065E300D394DA /* LaunchScreen.storyboard */; };
+		27637D251D40726600D394DA /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27637D241D40726600D394DA /* Player.swift */; };
+		27637D291D418C6F00D394DA /* Tyrion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27637D281D418C6F00D394DA /* Tyrion.swift */; };
+		27637D2B1D418C8100D394DA /* WhiteWalker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27637D2A1D418C8100D394DA /* WhiteWalker.swift */; };
+		27637D2D1D41930A00D394DA /* Castlecall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 27637D2C1D41930A00D394DA /* Castlecall.mp3 */; };
+		27637D2F1D419E0D00D394DA /* KhalDrogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27637D2E1D419E0D00D394DA /* KhalDrogo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		27637D191D4065E300D394DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27637D1C1D4065E300D394DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27637D1E1D4065E300D394DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27637D241D40726600D394DA /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		27637D281D418C6F00D394DA /* Tyrion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tyrion.swift; sourceTree = "<group>"; };
+		27637D2A1D418C8100D394DA /* WhiteWalker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiteWalker.swift; sourceTree = "<group>"; };
+		27637D2C1D41930A00D394DA /* Castlecall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Castlecall.mp3; sourceTree = "<group>"; };
+		27637D2E1D419E0D00D394DA /* KhalDrogo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KhalDrogo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,11 @@
 				27637D121D4065E300D394DA /* AppDelegate.swift */,
 				27637D141D4065E300D394DA /* ViewController.swift */,
 				27637D161D4065E300D394DA /* Main.storyboard */,
+				27637D241D40726600D394DA /* Player.swift */,
+				27637D281D418C6F00D394DA /* Tyrion.swift */,
+				27637D2E1D419E0D00D394DA /* KhalDrogo.swift */,
+				27637D2A1D418C8100D394DA /* WhiteWalker.swift */,
+				27637D2C1D41930A00D394DA /* Castlecall.mp3 */,
 				27637D191D4065E300D394DA /* Assets.xcassets */,
 				27637D1B1D4065E300D394DA /* LaunchScreen.storyboard */,
 				27637D1E1D4065E300D394DA /* Info.plist */,
@@ -122,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27637D2D1D41930A00D394DA /* Castlecall.mp3 in Resources */,
 				27637D1D1D4065E300D394DA /* LaunchScreen.storyboard in Resources */,
 				27637D1A1D4065E300D394DA /* Assets.xcassets in Resources */,
 				27637D181D4065E300D394DA /* Main.storyboard in Resources */,
@@ -136,7 +152,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				27637D151D4065E300D394DA /* ViewController.swift in Sources */,
+				27637D291D418C6F00D394DA /* Tyrion.swift in Sources */,
+				27637D251D40726600D394DA /* Player.swift in Sources */,
 				27637D131D4065E300D394DA /* AppDelegate.swift in Sources */,
+				27637D2B1D418C8100D394DA /* WhiteWalker.swift in Sources */,
+				27637D2F1D419E0D00D394DA /* KhalDrogo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +306,7 @@
 				27637D231D4065E300D394DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

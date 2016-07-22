@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,8 +16,56 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="m5k-qF-D38">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Thrones-Fight" translatesAutoresizingMaskIntoConstraints="NO" id="VC4-sf-Eej">
+                                <rect key="frame" x="78" y="30" width="459" height="98"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="98" id="Ui3-S6-teW"/>
+                                    <constraint firstAttribute="width" constant="459" id="sb4-Wu-kCe"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" alignment="center" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="j1R-KO-4ZB">
+                                <rect key="frame" x="114" y="165" width="372" height="176"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="whitewalker" translatesAutoresizingMaskIntoConstraints="NO" id="TT7-Rm-FtO">
+                                        <rect key="frame" x="0.0" y="0.0" width="84" height="176"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="84" id="bwK-eo-VGu"/>
+                                            <constraint firstAttribute="height" constant="176" id="qaV-RJ-aDG"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tyrion" translatesAutoresizingMaskIntoConstraints="NO" id="Ugo-LN-Ph4">
+                                        <rect key="frame" x="144" y="0.0" width="84" height="176"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="176" id="H9y-rc-JEo"/>
+                                            <constraint firstAttribute="width" constant="84" id="Np0-Gz-KVC"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="drogo" translatesAutoresizingMaskIntoConstraints="NO" id="B81-AE-lKj">
+                                        <rect key="frame" x="288" y="0.0" width="84" height="176"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="176" id="0SP-qc-f5x"/>
+                                            <constraint firstAttribute="width" constant="84" id="klJ-Re-LMt"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="VC4-sf-Eej" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="78" id="4xg-VF-W93"/>
+                            <constraint firstItem="j1R-KO-4ZB" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="6Fn-g1-tVt"/>
+                            <constraint firstAttribute="trailing" secondItem="VC4-sf-Eej" secondAttribute="trailing" constant="63" id="B9m-SK-e2l"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="m5k-qF-D38" secondAttribute="bottom" id="R2p-gY-tvo"/>
+                            <constraint firstItem="VC4-sf-Eej" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="10" id="XpB-DC-IQJ"/>
+                            <constraint firstItem="m5k-qF-D38" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="b4a-SW-9mI"/>
+                            <constraint firstAttribute="trailing" secondItem="m5k-qF-D38" secondAttribute="trailing" id="cn8-Hc-EKp"/>
+                            <constraint firstItem="j1R-KO-4ZB" firstAttribute="top" secondItem="VC4-sf-Eej" secondAttribute="bottom" constant="37" id="k28-wB-2Up"/>
+                            <constraint firstItem="m5k-qF-D38" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="zJc-u9-mBU"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +73,11 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Thrones-Fight" width="892" height="96"/>
+        <image name="bg" width="768" height="1024"/>
+        <image name="drogo" width="121" height="267"/>
+        <image name="tyrion" width="64" height="148"/>
+        <image name="whitewalker" width="124" height="265"/>
+    </resources>
 </document>
